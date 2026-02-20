@@ -34,6 +34,10 @@ ul {
     text-decoration: none;
 }
 
+.headlink:hover {
+    text-decoration: underline;
+}
+
 .headlink:visited {
     color: skyblue;
 }
@@ -89,6 +93,10 @@ ul {
     padding: 8px;
     border-radius: 8px;
     border: none;
+}
+
+.signup:hover {
+    background-color: #5083d4;
 }
 
 .body {
