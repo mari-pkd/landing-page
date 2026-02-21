@@ -108,7 +108,9 @@ ul {
 
 .icons {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    margin: 24px;
 }
 
 .icon-image {
@@ -183,4 +185,43 @@ ul {
 #signup-title {
     font-weight: 900;
     font-size: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .header {
+        padding: 20px;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body {
+        margin-bottom: 0px;
+    }
+
+    .quote-container {
+        padding: 12px;
+    }
+
+    .signup-container {
+        padding: 24px 12px;
+        margin: 12px;
+        gap: 12px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #quote {
+        font-size: 20px;
+    }
+
+    #author {
+        font-size: 16px;
+    }
 }
