@@ -108,6 +108,7 @@ ul {
 
 .icons {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     margin: 24px;
@@ -190,43 +191,84 @@ ul {
 @media screen and (max-width: 800px) {
     
     body {
-        width: 100%;
-        position: absolute;
+        width: 100vw;
+        font-size: 4vw;
     }
     
     .header {
-        padding: 20px;
+        padding: 10%;
+    }
+
+    .logo {
+        font-size: 4vw;
+        gap: 20%;
     }
     
     .main-container {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .signup {
+        max-width: 100vw;
+    }
+
+    .title {
+        font-size: 8vw;
+    }
+
+    .info {
+        max-width: 90vw;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .body {
-        margin-bottom: 0px;
+        margin-bottom: 0;
+    }
+
+    .image {
+        width: 100vw;
+    }
+
+    .icon-image {
+        width: 30vw;
+        height: 20vh;
+    }
+
+    .icon-text {
+        max-width: 30vw;
+        font-size: 4vw;
+        padding-left: 0;
     }
 
     .quote-container {
-        padding: 12px;
+        padding: 12%;
     }
 
     .signup-container {
-        padding: 24px 12px;
-        margin: 12px;
-        gap: 12px;
+        flex-direction: column;
+        align-items: center;
+        padding: 6% 12%;
+        margin: 6%;
+        gap: 20px;
     }
 
     .footer {
-        font-size: 12px;
-        padding: 8px;
+        font-size: 4vw;
+        padding: 4%;
     }
 
     #quote {
-        font-size: 20px;
+        font-size: 7vw;
     }
 
     #author {
-        font-size: 16px;
+        font-size: 6vw;
+    }
+
+    #signup-title {
+        font-size: 6vw;
     }
 }
