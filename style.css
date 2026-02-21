@@ -191,6 +191,7 @@ ul {
     
     body {
         width: 100%;
+        position: absolute;
     }
     
     .header {
