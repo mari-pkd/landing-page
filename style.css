@@ -32,6 +32,7 @@ ul {
 
 .headlink {
     text-decoration: none;
+    color: white;
 }
 
 .headlink:hover {
